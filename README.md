@@ -1,57 +1,58 @@
-# How-to-Deploy-an-on-premises-Active-Directory-within-Azure-Compute
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
+# Azure SOC and Honeynet Setup Guide
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+## Prerequisites
+1. Create an Azure Subscription to access the Azure Platform. This comes with an initial $200 credit.
+   
+## Resource Group Creation
+1. Sign in to the Azure Portal.
+2. Navigate to “Resource groups.”
+3. Click “+ Add” to create a new resource group.
+4. Fill in the basics:
+   - Subscription: Choose Azure subscription.
+   - Resource group: Enter a unique name.
+   - Region: Choose the deployment region.
+5. Review and create the resource group.
 
+## Log Analytics Workspace
+1. Navigate to “Log Analytics.”
+2. Click “+ Add” to create a new Log Analytics Workspace.
+3. Fill in the basics:
+   - Subscription: Choose Azure subscription.
+   - Resource group: Create or select.
+   - Workspace name: Enter a unique name.
+   - Region: Choose the deployment region.
+4. Configure settings and review.
+5. Create the Log Analytics Workspace.
 
-<h2>Video Demonstration</h2>
+## Azure Sentinel Configuration
+1. Go to Azure Sentinel.
+2. Create a new workspace if needed.
+3. Navigate to “Configuration.”
+4. Connect to Log Analytics Workspace.
+5. Ingest and analyze data.
+6. Configure connectors for data sources.
+7. Enable Common Data Model (CDM).
+8. Review and save settings.
+9. Monitor Azure Sentinel Dashboard.
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+## Honeynet Setup
+1. Consider creating a separate Azure subscription for the Honeynet.
+2. Create a Resource Group for Honeynet resources.
+3. Create a Virtual Network:
+   - Define address space and add a subnet.
+   - Configure NSG settings.
+4. Create Virtual Machines:
+   - Choose OS, size, and configure settings.
+   - Review and create the VM.
+5. Create Network Security Groups (NSG):
+   - Define inbound and outbound rules.
+6. Implement monitoring and logging.
+7. Use deception technologies like honeypots.
+8. Perform regular updates and maintenance.
+9. Analyze incidents and attacks in the Honeynet.
+10. Ensure compliance, continuous improvement, and training.
 
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
-
-<h2>Operating Systems Used </h2>
-
-- Windows Server 2022
-- Windows 10 (21H2)
-
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## Important Considerations
+- Compliance: Ensure SOC and Honeynet comply with regulations.
+- Continuous Improvement: Regularly update based on evolving threats.
+- Training: Train SOC personnel and stakeholders on security practices.
