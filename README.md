@@ -26,6 +26,19 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 ![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/8208fb19-952d-4345-bc71-26c79d74b0b7)
 ![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/0fd5d018-52c9-45fa-91b1-4dd2d4c805d7)
 
+## Virtual Machines (VM)
+1. Navigate to “Virtual Machines”
+2. Click “+ Add” to create a new Virtual Machines.
+3. Fill in the basics:
+   - Subscription: Choose Azure subscription.
+   - Resource group: Create or select.
+   - Virtual Machine name: Enter a unique name.
+   - Region: Choose the deployment region.
+4. Proceed to Networking settings.
+   - NIC network security group: select Advanced.
+   - Configure Network Security group: Select "Create new" below the dropdown options.
+6. Create the Virtual Machine.
+
 ## Log Analytics Workspace
 1. Navigate to “Log Analytics.”
 2. Click “+ Add” to create a new Log Analytics Workspace.
