@@ -1,9 +1,11 @@
-# Azure SOC and Honeynet Setup Guide
 ![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/84cb0c29-1786-4e7b-9342-860a3b4dde9d)
+
+<h1>Azure SOC and Honeynet Setup Guide</h1>
+The guide outlines setting up a Security Operations Center (SOC) and Honeynet on Azure, emphasizing effective monitoring, incident response, and honeypot deployment to bolster your organization's resilience against cyber threats <br />
 
 
 ## Prerequisites
-1. Create an Azure Subscription to access the Azure Platform. This comes with an initial $200 credit.
+1. Create an Azure Subscription to access the Azure Platform. This comes with an initial $200 credit for new accounts.
    
 ## Resource Group Creation
 1. Sign in to the Azure Portal.
