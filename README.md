@@ -74,6 +74,19 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 ![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/3c5caa4d-756c-42b4-b83c-d0e250b4ded2)
 ![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/6e3d026b-6ade-4935-9648-6195e183a51f)
 
+## Microsoft Defendor for Cloud Settings
+1. Go to Microsoft Defendor for Cloud.
+2. Navigate to Overview.
+3. Under Management (option on far left), select Environment Settings.
+4. Select the Log Analytics work space 
+5. Servers must be turned "On" and SQL servers on machines myust be turned "Off".
+6. Save changes.
+7. Go to Data Collection and select "All Events"  then Save.
+
+## Connecting Log Analytics workspace to VM
+1. Connect to Log Analytics Workspace.
+2. Select Log Analystics workspace.
+3. Go to Virtual Machines and Select VM.
 
 
 ## Azure Sentinel Configuration
