@@ -37,6 +37,13 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 4. Proceed to Networking settings.
    - NIC network security group: select Advanced.
    - Configure Network Security group: Select "Create new" below the dropdown options.
+   - Delete existing Inbound Rules (Trashcan far right).
+   - Select + Add and Inbound Rule.
+   - Fill in the Source port ranges & Destination port ranges with an * instead of a number.
+   - Lower Priority number down to 100.
+   - Optional, you can change name of this Security Rule.
+   - Add when done.
+
 6. Create the Virtual Machine.
 
 ## Log Analytics Workspace
