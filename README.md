@@ -7,7 +7,8 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 ## Prerequisites
 1. Create an Azure Subscription to access the Azure Platform. This comes with an initial $200 credit for new accounts.
 
-   <h2>Environments and Technologies Used</h2>
+<h2>Environments and Technologies Used</h2>
+(NOTE: I was able to set up the entire project on both my IPAD Pro 2020 and desktop running Windows 10)
 
 - Microsoft Azure (Virtual Machines/Compute)
 
