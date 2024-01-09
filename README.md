@@ -83,10 +83,22 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 6. Save changes.
 7. Go to Data Collection and select "All Events"  then Save.
 
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/8598f16d-bc07-4f81-9a97-be7371c405db)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/bbd99ee3-66cf-460b-bede-7a711f4450a4)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/2afa98af-a5c5-4784-b66f-500787b2ed55)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/1d42075f-4ecf-4270-a610-8b72a9116225)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/c242cbb4-0735-40d5-994a-500ed10695b2)
+
+
 ## Connecting Log Analytics workspace to VM
 1. Connect to Log Analytics Workspace.
 2. Select Log Analystics workspace.
 3. Go to Virtual Machines and Select VM.
+
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/e67c4b3f-c8dd-47e9-9459-4f0091bae3bb)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/77e80804-32f2-456b-9b81-01b87103f855)
+![image](https://github.com/Richan21/How-to-Implement-a-SOC-in-AZURE/assets/153684298/d59abb5a-2210-4454-b5b4-6d82bd753ae2)
+
 
 
 ## Azure Sentinel Configuration
