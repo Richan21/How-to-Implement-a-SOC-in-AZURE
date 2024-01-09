@@ -6,7 +6,11 @@ The guide outlines setting up a Security Operations Center (SOC) and Honeynet on
 
 ## Prerequisites
 1. Create an Azure Subscription to access the Azure Platform. This comes with an initial $200 credit for new accounts.
-   
+
+   <h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+
 ## Resource Group Creation
 1. Sign in to the Azure Portal.
 2. Navigate to “Resource groups.”
